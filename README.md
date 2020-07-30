@@ -1,6 +1,6 @@
 ## Project Overview
 
-In this project, we will develop a CI/CD pipeline for micro services applications with either blue/green deployment or rolling deployment.
+In this project, we will develop a CI/CD pipeline for micro services applications with either blue/green deployment on kubernetes cluster.
 
 ---
 
