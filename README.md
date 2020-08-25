@@ -30,13 +30,14 @@ In this project, we will develop a CI/CD pipeline for micro services application
 * `sudo mv /tmp/eksctl /usr/local/bin`
 * `eksctl version`
 
-### Install kubectl:
-
+### Install kubectl: [Refer](https://kubernetes.io/docs/tasks/tools/install-kubectl/#kubectl-install-0) for other operating system
+#### Install via native package management:
 * `sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2`
-`curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -`
-`echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list`
+* `curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -`
+* `echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list`
 * `sudo apt-get update`
 * `sudo apt-get install -y kubectl`
+#### Install via other package management:
 * `snap install kubectl --classic`
 * `kubectl version --client`
 
